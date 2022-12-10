@@ -1,0 +1,51 @@
+.share{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+.title{
+    color: gray;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.share-top{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.share-bottom{
+    margin-top: 40px;
+    display: flex;
+}
+.share .item{
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+}
+.share .text{
+   margin-left: 4px;
+   font-weight: 500;
+}
+.share-btn{
+    background: red;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    height: 30px;
+    border: none;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+hr{
+    color: rgb(227, 211, 211);
+    width: 100%;
+    border-radius: 5px;
+}

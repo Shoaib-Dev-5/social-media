@@ -1,0 +1,44 @@
+.sidebar{
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+    overflow-x:hidden ;
+    width: 100%;
+    flex: 3;
+    position: sticky;
+    top: 50px;
+}
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+.sidebar::-webkit-scrollbar-track {
+    background-color: rgb(250, 244, 244);
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: rgb(130, 128, 127);
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+li :hover {
+    background:rgb(209, 198, 198);
+}
+.icon{
+    margin-right: 10px;
+}
+.av{
+    margin: 10px;
+}
+.sidebar-btn
+{
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,29 @@
+.right{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+}
+.right-top{
+    display: flex;
+    margin: 10px;
+}
+.right-center img{
+    width: 100%;
+    margin: 10px;
+    border-radius: 20px;
+}
+.right-bottom h4{
+    margin: 14px;
+    
+}
+.right-bottom .inner{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.right-bottom p{
+    font-weight: 500;
+    margin-left: 10px;
+}
